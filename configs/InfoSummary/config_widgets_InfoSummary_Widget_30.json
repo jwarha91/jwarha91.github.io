@@ -1,0 +1,2239 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "17ac30136cc-layer-2",
+      "label": "Places of Interest in City of Toronto",
+      "refresh": false,
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Places of Interest in City of Toronto/FeatureServer/0",
+      "id": "17ac30136cc-layer-2",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            0,
+            127,
+            217,
+            255
+          ],
+          "size": 6,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              153,
+              153,
+              153,
+              64
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            0,
+            127,
+            217,
+            255
+          ],
+          "size": 6,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              153,
+              153,
+              153,
+              64
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "0": {
+              "root": {
+                "attributeInfo": {
+                  "type": "sizeInfo",
+                  "valueExpression": "$view.scale",
+                  "stops": [
+                    {
+                      "size": 10,
+                      "value": 4513.988705
+                    },
+                    {
+                      "size": 8,
+                      "value": 36111.909643
+                    },
+                    {
+                      "size": 4,
+                      "value": 288895.277144
+                    },
+                    {
+                      "size": 2,
+                      "value": 2311162.217155
+                    }
+                  ]
+                },
+                "isNumeric": true,
+                "idSource": "$view.scale",
+                "id": "69d17ad7e61d54df025c5c639d87a61a",
+                "hasExpr": true,
+                "syntaxTree": {
+                  "type": "Program",
+                  "body": [
+                    {
+                      "type": "FunctionDeclaration",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "_"
+                      },
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "expression": {
+                              "type": "MemberExpression",
+                              "computed": false,
+                              "object": {
+                                "type": "Identifier",
+                                "name": "$view"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "scale"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "generator": false,
+                      "expression": false,
+                      "async": false
+                    }
+                  ],
+                  "sourceType": "script",
+                  "usesFeatureSet": false,
+                  "usesGeometry": false
+                },
+                "isScaleDriven": true,
+                "dependsOnView": true,
+                "dependsOnGeometry": false,
+                "isJSFunc": false,
+                "ipData": [
+                  4513.988705,
+                  36111.909643,
+                  288895.277144,
+                  2311162.217155
+                ]
+              },
+              "minSize": null,
+              "maxSize": null
+            },
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null,
+            "uvInfo": {
+              "attributeInfo": {},
+              "isNumeric": false,
+              "idSource": null,
+              "id": null,
+              "hasExpr": false,
+              "compiledFunc": null,
+              "syntaxTree": null,
+              "isScaleDriven": false,
+              "dependsOnView": false,
+              "dependsOnGeometry": false,
+              "isJSFunc": false
+            }
+          },
+          "values": [
+            "Performing Arts",
+            "Museum",
+            "Featured Park",
+            "Attraction",
+            "Landmark",
+            "Beach",
+            "Gallery",
+            "Sports / Entertainment Venue",
+            "Garden / Conservatory",
+            "Convention & Trade Centres"
+          ],
+          "_symbols": {
+            "Performing Arts": {
+              "label": "Performing Arts",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 0,
+                  "g": 127,
+                  "b": 217
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Performing Arts"
+            },
+            "Museum": {
+              "label": "Museum",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 68,
+                  "g": 61,
+                  "b": 191
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Museum"
+            },
+            "Featured Park": {
+              "label": "Featured Park",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 136,
+                  "g": 31,
+                  "b": 197
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Featured Park"
+            },
+            "Attraction": {
+              "label": "Attraction",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 191,
+                  "g": 0,
+                  "b": 191
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Attraction"
+            },
+            "Landmark": {
+              "label": "Landmark",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 212,
+                  "g": 63,
+                  "b": 112
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Landmark"
+            },
+            "Beach": {
+              "label": "Beach",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 217,
+                  "g": 135,
+                  "b": 76
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Beach"
+            },
+            "Gallery": {
+              "label": "Gallery",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 182,
+                  "g": 161,
+                  "b": 53
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Gallery"
+            },
+            "Sports / Entertainment Venue": {
+              "label": "Sports / Entertainment Venue",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 173,
+                  "g": 191,
+                  "b": 39
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Sports / Entertainment Venue"
+            },
+            "Garden / Conservatory": {
+              "label": "Garden / Conservatory",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 196,
+                  "g": 220,
+                  "b": 102
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Garden / Conservatory"
+            },
+            "Convention & Trade Centres": {
+              "label": "Convention & Trade Centres",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 235,
+                  "g": 228,
+                  "b": 152
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Convention & Trade Centres"
+            }
+          },
+          "infos": [
+            {
+              "label": "Performing Arts",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 0,
+                  "g": 127,
+                  "b": 217
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Performing Arts"
+            },
+            {
+              "label": "Museum",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 68,
+                  "g": 61,
+                  "b": 191
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Museum"
+            },
+            {
+              "label": "Featured Park",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 136,
+                  "g": 31,
+                  "b": 197
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Featured Park"
+            },
+            {
+              "label": "Attraction",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 191,
+                  "g": 0,
+                  "b": 191
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Attraction"
+            },
+            {
+              "label": "Landmark",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 212,
+                  "g": 63,
+                  "b": 112
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Landmark"
+            },
+            {
+              "label": "Beach",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 217,
+                  "g": 135,
+                  "b": 76
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Beach"
+            },
+            {
+              "label": "Gallery",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 182,
+                  "g": 161,
+                  "b": 53
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Gallery"
+            },
+            {
+              "label": "Sports / Entertainment Venue",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 173,
+                  "g": 191,
+                  "b": 39
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Sports / Entertainment Venue"
+            },
+            {
+              "label": "Garden / Conservatory",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 196,
+                  "g": 220,
+                  "b": 102
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Garden / Conservatory"
+            },
+            {
+              "label": "Convention & Trade Centres",
+              "symbol": {
+                "style": "circle",
+                "color": {
+                  "r": 235,
+                  "g": 228,
+                  "b": 152
+                },
+                "size": 8,
+                "outline": {
+                  "width": 1,
+                  "color": {
+                    "r": 153,
+                    "g": 153,
+                    "b": 153,
+                    "a": 0.25098039215686274
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "Convention & Trade Centres"
+            }
+          ],
+          "defaultSymbol": {
+            "style": "circle",
+            "color": {
+              "r": 26,
+              "g": 26,
+              "b": 26
+            },
+            "size": 8,
+            "outline": {
+              "width": 1,
+              "color": {
+                "r": 153,
+                "g": 153,
+                "b": 153,
+                "a": 0.25098039215686274
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "attributeField": "CATEGORY",
+          "_multiple": false,
+          "visualVariables": [
+            {
+              "type": "sizeInfo",
+              "valueExpression": "$view.scale",
+              "stops": [
+                {
+                  "size": 10,
+                  "value": 4513.988705
+                },
+                {
+                  "size": 8,
+                  "value": 36111.909643
+                },
+                {
+                  "size": 4,
+                  "value": 288895.277144
+                },
+                {
+                  "size": 2,
+                  "value": 2311162.217155
+                }
+              ]
+            }
+          ],
+          "defaultLabel": "Other",
+          "_uvInfo": {},
+          "_hasNullKeyword": false,
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 127, 217)\" fill-opacity=\"1\" stroke=\"rgb(153, 153, 153)\" stroke-opacity=\"0.25098039215686274\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "17ac30136cc-layer-2",
+        "selectedId": "imageGFX_0",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "ADDRESS"
+            },
+            {
+              "name": "CATEGORY"
+            },
+            {
+              "name": "DESCRIPTIO"
+            }
+          ],
+          "groupField": {
+            "name": "FID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": [
+              {
+                "name": "CATEGORY"
+              }
+            ],
+            "values": [
+              {
+                "value": " === 'Performing Arts'",
+                "label": "Performing Arts"
+              },
+              {
+                "value": " === 'Museum'",
+                "label": "Museum"
+              },
+              {
+                "value": " === 'Featured Park'",
+                "label": "Featured Park"
+              },
+              {
+                "value": " === 'Attraction'",
+                "label": "Attraction"
+              },
+              {
+                "value": " === 'Landmark'",
+                "label": "Landmark"
+              },
+              {
+                "value": " === 'Beach'",
+                "label": "Beach"
+              },
+              {
+                "value": " === 'Gallery'",
+                "label": "Gallery"
+              },
+              {
+                "value": " === 'Sports / Entertainment Venue'",
+                "label": "Sports / Entertainment Venue"
+              },
+              {
+                "value": " === 'Garden / Conservatory'",
+                "label": "Garden / Conservatory"
+              },
+              {
+                "value": " === 'Convention & Trade Centres'",
+                "label": "Convention & Trade Centres"
+              }
+            ]
+          },
+          "layerOptionsSortOrder": "ASC",
+          "groupFeaturesSortOrder": "ASC"
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "17ac30136cc-layer-2",
+      "renderer": {
+        "_cache": {
+          "0": {
+            "root": {
+              "attributeInfo": {
+                "type": "sizeInfo",
+                "valueExpression": "$view.scale",
+                "stops": [
+                  {
+                    "size": 10,
+                    "value": 4513.988705
+                  },
+                  {
+                    "size": 8,
+                    "value": 36111.909643
+                  },
+                  {
+                    "size": 4,
+                    "value": 288895.277144
+                  },
+                  {
+                    "size": 2,
+                    "value": 2311162.217155
+                  }
+                ]
+              },
+              "isNumeric": true,
+              "idSource": "$view.scale",
+              "id": "69d17ad7e61d54df025c5c639d87a61a",
+              "hasExpr": true,
+              "syntaxTree": {
+                "type": "Program",
+                "body": [
+                  {
+                    "type": "FunctionDeclaration",
+                    "id": {
+                      "type": "Identifier",
+                      "name": "_"
+                    },
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "expression": {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "Identifier",
+                              "name": "$view"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "scale"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "generator": false,
+                    "expression": false,
+                    "async": false
+                  }
+                ],
+                "sourceType": "script",
+                "usesFeatureSet": false,
+                "usesGeometry": false
+              },
+              "isScaleDriven": true,
+              "dependsOnView": true,
+              "dependsOnGeometry": false,
+              "isJSFunc": false,
+              "ipData": [
+                4513.988705,
+                36111.909643,
+                288895.277144,
+                2311162.217155
+              ]
+            },
+            "minSize": null,
+            "maxSize": null
+          },
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null,
+          "uvInfo": {
+            "attributeInfo": {},
+            "isNumeric": false,
+            "idSource": null,
+            "id": null,
+            "hasExpr": false,
+            "compiledFunc": null,
+            "syntaxTree": null,
+            "isScaleDriven": false,
+            "dependsOnView": false,
+            "dependsOnGeometry": false,
+            "isJSFunc": false
+          }
+        },
+        "values": [
+          "Performing Arts",
+          "Museum",
+          "Featured Park",
+          "Attraction",
+          "Landmark",
+          "Beach",
+          "Gallery",
+          "Sports / Entertainment Venue",
+          "Garden / Conservatory",
+          "Convention & Trade Centres"
+        ],
+        "_symbols": {
+          "Performing Arts": {
+            "label": "Performing Arts",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 0,
+                "g": 127,
+                "b": 217
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Performing Arts"
+          },
+          "Museum": {
+            "label": "Museum",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 68,
+                "g": 61,
+                "b": 191
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Museum"
+          },
+          "Featured Park": {
+            "label": "Featured Park",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 136,
+                "g": 31,
+                "b": 197
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Featured Park"
+          },
+          "Attraction": {
+            "label": "Attraction",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 191,
+                "g": 0,
+                "b": 191
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Attraction"
+          },
+          "Landmark": {
+            "label": "Landmark",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 212,
+                "g": 63,
+                "b": 112
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Landmark"
+          },
+          "Beach": {
+            "label": "Beach",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 217,
+                "g": 135,
+                "b": 76
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Beach"
+          },
+          "Gallery": {
+            "label": "Gallery",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 182,
+                "g": 161,
+                "b": 53
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Gallery"
+          },
+          "Sports / Entertainment Venue": {
+            "label": "Sports / Entertainment Venue",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 173,
+                "g": 191,
+                "b": 39
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Sports / Entertainment Venue"
+          },
+          "Garden / Conservatory": {
+            "label": "Garden / Conservatory",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 196,
+                "g": 220,
+                "b": 102
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Garden / Conservatory"
+          },
+          "Convention & Trade Centres": {
+            "label": "Convention & Trade Centres",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 235,
+                "g": 228,
+                "b": 152
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Convention & Trade Centres"
+          }
+        },
+        "infos": [
+          {
+            "label": "Performing Arts",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 0,
+                "g": 127,
+                "b": 217
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Performing Arts"
+          },
+          {
+            "label": "Museum",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 68,
+                "g": 61,
+                "b": 191
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Museum"
+          },
+          {
+            "label": "Featured Park",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 136,
+                "g": 31,
+                "b": 197
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Featured Park"
+          },
+          {
+            "label": "Attraction",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 191,
+                "g": 0,
+                "b": 191
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Attraction"
+          },
+          {
+            "label": "Landmark",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 212,
+                "g": 63,
+                "b": 112
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Landmark"
+          },
+          {
+            "label": "Beach",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 217,
+                "g": 135,
+                "b": 76
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Beach"
+          },
+          {
+            "label": "Gallery",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 182,
+                "g": 161,
+                "b": 53
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Gallery"
+          },
+          {
+            "label": "Sports / Entertainment Venue",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 173,
+                "g": 191,
+                "b": 39
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Sports / Entertainment Venue"
+          },
+          {
+            "label": "Garden / Conservatory",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 196,
+                "g": 220,
+                "b": 102
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Garden / Conservatory"
+          },
+          {
+            "label": "Convention & Trade Centres",
+            "symbol": {
+              "style": "circle",
+              "color": {
+                "r": 235,
+                "g": 228,
+                "b": 152
+              },
+              "size": 8,
+              "outline": {
+                "width": 1,
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Convention & Trade Centres"
+          }
+        ],
+        "defaultSymbol": {
+          "style": "circle",
+          "color": {
+            "r": 26,
+            "g": 26,
+            "b": 26
+          },
+          "size": 8,
+          "outline": {
+            "width": 1,
+            "color": {
+              "r": 153,
+              "g": 153,
+              "b": 153,
+              "a": 0.25098039215686274
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "attributeField": "CATEGORY",
+        "_multiple": false,
+        "visualVariables": [
+          {
+            "type": "sizeInfo",
+            "valueExpression": "$view.scale",
+            "stops": [
+              {
+                "size": 10,
+                "value": 4513.988705
+              },
+              {
+                "size": 8,
+                "value": 36111.909643
+              },
+              {
+                "size": 4,
+                "value": 288895.277144
+              },
+              {
+                "size": 2,
+                "value": 2311162.217155
+              }
+            ]
+          }
+        ],
+        "defaultLabel": "Other",
+        "_uvInfo": {},
+        "_hasNullKeyword": false,
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "ADDR_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "ADDR_INFO",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "TITLE",
+          "length": 250,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "CATEGORY",
+          "length": 150,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PHONE",
+          "length": 50,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "EMAIL",
+          "length": 100,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "WEBSITE",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS",
+          "length": 131,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "POSTAL_CD",
+          "type": "esriFieldTypeString",
+          "alias": "POSTAL_CD",
+          "length": 7,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeDouble",
+          "alias": "OBJECTID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SRC_ADDRSS",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_ADDRSS",
+          "length": 100,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "popupElements": [
+            {
+              "type": "fields",
+              "description": "",
+              "fieldInfos": [
+                {
+                  "fieldName": "TITLE",
+                  "isEditable": true,
+                  "label": "TITLE",
+                  "visible": true
+                },
+                {
+                  "fieldName": "ADDRESS",
+                  "isEditable": true,
+                  "label": "ADDRESS",
+                  "visible": true
+                },
+                {
+                  "fieldName": "POSTAL_CD",
+                  "isEditable": true,
+                  "label": "POSTAL_CD",
+                  "visible": true
+                },
+                {
+                  "fieldName": "CATEGORY",
+                  "isEditable": true,
+                  "label": "CATEGORY",
+                  "visible": true
+                },
+                {
+                  "fieldName": "DESCRIPTIO",
+                  "isEditable": true,
+                  "label": "DESCRIPTIO",
+                  "visible": true
+                },
+                {
+                  "fieldName": "EMAIL",
+                  "isEditable": true,
+                  "label": "EMAIL",
+                  "visible": true
+                },
+                {
+                  "fieldName": "ID",
+                  "format": {
+                    "digitSeparator": true,
+                    "places": 0
+                  },
+                  "isEditable": true,
+                  "label": "ID",
+                  "visible": true
+                },
+                {
+                  "fieldName": "PHONE",
+                  "isEditable": true,
+                  "label": "PHONE",
+                  "visible": true
+                },
+                {
+                  "fieldName": "WEBSITE",
+                  "isEditable": true,
+                  "label": "WEBSITE",
+                  "visible": true
+                }
+              ],
+              "title": ""
+            }
+          ],
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "label": "FID",
+              "visible": false
+            },
+            {
+              "fieldName": "ADDR_INFO",
+              "isEditable": true,
+              "label": "ADDR_INFO",
+              "visible": false
+            },
+            {
+              "fieldName": "ADDRESS",
+              "isEditable": true,
+              "label": "ADDRESS",
+              "visible": true
+            },
+            {
+              "fieldName": "CATEGORY",
+              "isEditable": true,
+              "label": "CATEGORY",
+              "visible": true
+            },
+            {
+              "fieldName": "DESCRIPTIO",
+              "isEditable": true,
+              "label": "DESCRIPTIO",
+              "visible": true
+            },
+            {
+              "fieldName": "EMAIL",
+              "isEditable": true,
+              "label": "EMAIL",
+              "visible": true
+            },
+            {
+              "fieldName": "ID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "ID",
+              "visible": true
+            },
+            {
+              "fieldName": "LATITUDE",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "LATITUDE",
+              "visible": false
+            },
+            {
+              "fieldName": "LEVEL_",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "LEVEL",
+              "visible": false
+            },
+            {
+              "fieldName": "LONGITUDE",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "LONGITUDE",
+              "visible": false
+            },
+            {
+              "fieldName": "OBJECTID",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "OBJECTID",
+              "visible": false
+            },
+            {
+              "fieldName": "PHONE",
+              "isEditable": true,
+              "label": "PHONE",
+              "visible": true
+            },
+            {
+              "fieldName": "POSTAL_CD",
+              "isEditable": true,
+              "label": "POSTAL_CD",
+              "visible": true
+            },
+            {
+              "fieldName": "SRC_ADDRSS",
+              "isEditable": true,
+              "label": "SRC_ADDRSS",
+              "visible": false
+            },
+            {
+              "fieldName": "TITLE",
+              "isEditable": true,
+              "label": "TITLE",
+              "visible": true
+            },
+            {
+              "fieldName": "WEBSITE",
+              "isEditable": true,
+              "label": "WEBSITE",
+              "visible": true
+            },
+            {
+              "fieldName": "X",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "X",
+              "visible": false
+            },
+            {
+              "fieldName": "Y",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "Y",
+              "visible": false
+            }
+          ],
+          "title": "Places of Interest in City of Toronto: {TITLE}"
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "addr_info": "ADDR_INFO",
+          "address": "ADDRESS",
+          "category": "CATEGORY",
+          "descriptio": "DESCRIPTIO",
+          "email": "EMAIL",
+          "id": "ID",
+          "latitude": "LATITUDE",
+          "level_": "LEVEL",
+          "longitude": "LONGITUDE",
+          "objectid": "OBJECTID",
+          "phone": "PHONE",
+          "postal_cd": "POSTAL_CD",
+          "src_addrss": "SRC_ADDRSS",
+          "title": "TITLE",
+          "website": "WEBSITE",
+          "x": "X",
+          "y": "Y"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "label": "FID",
+            "visible": false
+          },
+          "addr_info": {
+            "fieldName": "ADDR_INFO",
+            "isEditable": true,
+            "label": "ADDR_INFO",
+            "visible": false
+          },
+          "address": {
+            "fieldName": "ADDRESS",
+            "isEditable": true,
+            "label": "ADDRESS",
+            "visible": true
+          },
+          "category": {
+            "fieldName": "CATEGORY",
+            "isEditable": true,
+            "label": "CATEGORY",
+            "visible": true
+          },
+          "descriptio": {
+            "fieldName": "DESCRIPTIO",
+            "isEditable": true,
+            "label": "DESCRIPTIO",
+            "visible": true
+          },
+          "email": {
+            "fieldName": "EMAIL",
+            "isEditable": true,
+            "label": "EMAIL",
+            "visible": true
+          },
+          "id": {
+            "fieldName": "ID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "ID",
+            "visible": true
+          },
+          "latitude": {
+            "fieldName": "LATITUDE",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "LATITUDE",
+            "visible": false
+          },
+          "level_": {
+            "fieldName": "LEVEL_",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "LEVEL",
+            "visible": false
+          },
+          "longitude": {
+            "fieldName": "LONGITUDE",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "LONGITUDE",
+            "visible": false
+          },
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "OBJECTID",
+            "visible": false
+          },
+          "phone": {
+            "fieldName": "PHONE",
+            "isEditable": true,
+            "label": "PHONE",
+            "visible": true
+          },
+          "postal_cd": {
+            "fieldName": "POSTAL_CD",
+            "isEditable": true,
+            "label": "POSTAL_CD",
+            "visible": true
+          },
+          "src_addrss": {
+            "fieldName": "SRC_ADDRSS",
+            "isEditable": true,
+            "label": "SRC_ADDRSS",
+            "visible": false
+          },
+          "title": {
+            "fieldName": "TITLE",
+            "isEditable": true,
+            "label": "TITLE",
+            "visible": true
+          },
+          "website": {
+            "fieldName": "WEBSITE",
+            "isEditable": true,
+            "label": "WEBSITE",
+            "visible": true
+          },
+          "x": {
+            "fieldName": "X",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "X",
+            "visible": false
+          },
+          "y": {
+            "fieldName": "Y",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "Y",
+            "visible": false
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"visualVariables\":[{\"type\":\"sizeInfo\",\"valueExpression\":\"$view.scale\",\"stops\":[{\"size\":7.5,\"value\":4513.988705},{\"size\":6,\"value\":36111.909643},{\"size\":3,\"value\":288895.277144},{\"size\":1.5,\"value\":2311162.217155}]}],\"type\":\"uniqueValue\",\"field1\":\"CATEGORY\",\"defaultSymbol\":{\"color\":[26,26,26,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"defaultLabel\":\"Other\",\"uniqueValueInfos\":[{\"label\":\"Performing Arts\",\"symbol\":{\"color\":[0,127,217,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Performing Arts\"},{\"label\":\"Museum\",\"symbol\":{\"color\":[68,61,191,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Museum\"},{\"label\":\"Featured Park\",\"symbol\":{\"color\":[136,31,197,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Featured Park\"},{\"label\":\"Attraction\",\"symbol\":{\"color\":[191,0,191,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Attraction\"},{\"label\":\"Landmark\",\"symbol\":{\"color\":[212,63,112,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Landmark\"},{\"label\":\"Beach\",\"symbol\":{\"color\":[217,135,76,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Beach\"},{\"label\":\"Gallery\",\"symbol\":{\"color\":[182,161,53,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Gallery\"},{\"label\":\"Sports / Entertainment Venue\",\"symbol\":{\"color\":[173,191,39,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Sports / Entertainment Venue\"},{\"label\":\"Garden / Conservatory\",\"symbol\":{\"color\":[196,220,102,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Garden / Conservatory\"},{\"label\":\"Convention & Trade Centres\",\"symbol\":{\"color\":[235,228,152,255],\"size\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[153,153,153,64],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}},\"value\":\"Convention & Trade Centres\"}]}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 127, 217)\" fill-opacity=\"1\" stroke=\"rgb(153, 153, 153)\" stroke-opacity=\"0.25098039215686274\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 127, 217)\" fill-opacity=\"1\" stroke=\"rgb(153, 153, 153)\" stroke-opacity=\"0.25098039215686274\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"4\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></circle></svg></div>"
+    }
+  ],
+  "mapID": "925cac7ba8304506a80ceeac747bc344",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": false,
+  "showAllFeatures": true,
+  "upgradeFields": false,
+  "displayClusterLayer": true
+}
